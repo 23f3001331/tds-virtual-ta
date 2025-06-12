@@ -1,0 +1,8 @@
+flask
+gunicorn
+beautifulsoup4
+markdownify
+playwright
+sentence-transformers
+faiss-cpu
+python-dotenv

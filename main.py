@@ -123,11 +123,33 @@ def semantic_search(query: str, top_k: int = 3, source: str = "all"):
 
     return results[:top_k]
 
+def format_response(raw_answers: list) -> dict:
+    if not raw_answers:
+        return {
+            "answer": "Sorry, I couldn’t find any relevant information.",
+            "links": []
+        }
+
+    summary = raw_answers[0].get("content", "No content found.").strip()
+
+    links = [
+        {
+            "url": item["url"],
+            "text": item["title"]
+        }
+        for item in raw_answers
+    ]
+
+    return {
+        "answer": summary,
+        "links": links
+    }
+
 @app.post("/api/")
 async def answer_question(req: QuestionRequest):
     try:
         answers = semantic_search(req.question, top_k=6, source=req.source)
-        return {"answers": answers}
+        return format_response(answers)
     except Exception as e:
         logger.error(f"❌ Error: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))

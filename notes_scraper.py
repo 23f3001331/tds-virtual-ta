@@ -39,16 +39,14 @@ def crawl_page(page, url):
         page.wait_for_timeout(1000)
         html = wait_for_article_and_get_html(page)
     except Exception as e:
-        print(f"❌ Error loading page: {url} – {e}")
+        print(f"❌ Error loading page: {url} — {e}")
         return
 
-    # Extract title and save markdown
     title = page.title().split(" - ")[0].strip() or f"page_{len(visited)}"
     filename = sanitize_filename(title)
     filepath = os.path.join(OUTPUT_DIR, f"{filename}.md")
 
     markdown = md(html)
-
     with open(filepath, "w", encoding="utf-8") as f:
         f.write("---\n")
         f.write(f"title: \"{title}\"\n")
@@ -64,7 +62,6 @@ def crawl_page(page, url):
         "downloaded_at": datetime.now().isoformat()
     })
 
-    # Recursively crawl all links found on the page
     links = extract_all_internal_links(page)
     for link in links:
         if link not in visited:
@@ -88,9 +85,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-
-
-

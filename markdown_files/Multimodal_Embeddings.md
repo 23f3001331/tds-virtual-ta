@@ -1,7 +1,7 @@
 ---
 title: "Multimodal Embeddings"
-original_url: "https://tds.s-anand.net/#/multimodal-embeddings?id=example-requests"
-downloaded_at: "2025-06-12T10:59:34.441529"
+original_url: "https://tds.s-anand.net/#/multimodal-embeddings?id=google-vertex-ai"
+downloaded_at: "2025-06-13T23:28:42.818171"
 ---
 
 [Multimodal Embeddings](#/multimodal-embeddings?id=multimodal-embeddings)

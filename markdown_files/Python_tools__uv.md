@@ -1,7 +1,7 @@
 ---
 title: "Python tools: uv"
 original_url: "https://tds.s-anand.net/#/uv?id=python-tools-uv"
-downloaded_at: "2025-06-12T10:57:43.181933"
+downloaded_at: "2025-06-13T23:29:47.108129"
 ---
 
 [Python tools: uv](#/uv?id=python-tools-uv)

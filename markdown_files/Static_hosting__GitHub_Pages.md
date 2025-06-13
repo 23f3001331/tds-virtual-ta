@@ -1,7 +1,7 @@
 ---
 title: "Static hosting: GitHub Pages"
 original_url: "https://tds.s-anand.net/#/github-pages?id=static-hosting-github-pages"
-downloaded_at: "2025-06-12T10:59:47.314251"
+downloaded_at: "2025-06-13T23:30:45.777498"
 ---
 
 [Static hosting: GitHub Pages](#/github-pages?id=static-hosting-github-pages)

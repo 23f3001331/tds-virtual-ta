@@ -1,6 +1,17 @@
+
 services:
   - type: web
-    name: tds-virtual-ta-api
-    env: python
-    buildCommand: ""
-    startCommand: gunicorn app:app
+    name: tds-virtual-ta
+    runtime: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "uvicorn main:app --host 0.0.0.0 --port 10000"
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: PINECONE_API_KEY
+        sync: false
+    disk:
+      name: data
+      mountPath: /var/data
+      sizeGB: 1

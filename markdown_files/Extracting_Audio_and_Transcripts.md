@@ -1,7 +1,7 @@
 ---
 title: "Extracting Audio and Transcripts"
-original_url: "https://tds.s-anand.net/#/extracting-audio-and-transcripts?id=media-tools-yt-dlp"
-downloaded_at: "2025-06-12T10:58:27.361671"
+original_url: "https://tds.s-anand.net/#/extracting-audio-and-transcripts?id=whisper-transcription"
+downloaded_at: "2025-06-13T23:29:11.871391"
 ---
 
 [Extracting Audio and Transcripts](#/extracting-audio-and-transcripts?id=extracting-audio-and-transcripts)

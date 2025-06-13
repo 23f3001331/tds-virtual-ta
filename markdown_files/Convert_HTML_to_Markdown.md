@@ -1,7 +1,7 @@
 ---
 title: "Convert HTML to Markdown"
-original_url: "https://tds.s-anand.net/#/convert-html-to-markdown?id=optimize-batch-processing"
-downloaded_at: "2025-06-12T10:58:56.623081"
+original_url: "https://tds.s-anand.net/#/convert-html-to-markdown?id=markdown-crawler"
+downloaded_at: "2025-06-13T23:30:02.126947"
 ---
 
 [Converting HTML to Markdown](#/convert-html-to-markdown?id=converting-html-to-markdown)

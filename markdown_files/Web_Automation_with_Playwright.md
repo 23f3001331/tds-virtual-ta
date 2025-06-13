@@ -1,7 +1,7 @@
 ---
 title: "Web Automation with Playwright"
 original_url: "https://tds.s-anand.net/#/web-automation-with-playwright?id=web-scraping-with-playwright-in-python"
-downloaded_at: "2025-06-12T10:59:50.462335"
+downloaded_at: "2025-06-13T23:27:40.876713"
 ---
 
 [Web Scraping with Playwright in Python](#/web-automation-with-playwright?id=web-scraping-with-playwright-in-python)

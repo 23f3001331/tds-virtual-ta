@@ -1,7 +1,7 @@
 ---
 title: "Parsing JSON"
-original_url: "https://tds.s-anand.net/#/parsing-json?id=sql-json-functions"
-downloaded_at: "2025-06-12T10:59:07.487997"
+original_url: "https://tds.s-anand.net/#/parsing-json?id=jmespath-queries"
+downloaded_at: "2025-06-13T23:29:41.372659"
 ---
 
 [Parsing JSON](#/parsing-json?id=parsing-json)

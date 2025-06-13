@@ -1,7 +1,7 @@
 ---
 title: "Editor: VS Code"
 original_url: "https://tds.s-anand.net/#/vscode?id=editor-vs-code"
-downloaded_at: "2025-06-12T11:00:01.118486"
+downloaded_at: "2025-06-13T23:30:06.629965"
 ---
 
 [Editor: VS Code](#/vscode?id=editor-vs-code)

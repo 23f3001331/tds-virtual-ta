@@ -1,7 +1,7 @@
 ---
 title: "Scraping emarketer.com"
 original_url: "https://tds.s-anand.net/#/scraping-emarketer?id=scraping-emarketer"
-downloaded_at: "2025-06-12T10:57:19.698170"
+downloaded_at: "2025-06-13T23:27:55.358086"
 ---
 
 [Scraping emarketer](#/scraping-emarketer?id=scraping-emarketer)

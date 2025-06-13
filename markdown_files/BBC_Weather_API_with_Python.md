@@ -1,7 +1,7 @@
 ---
 title: "BBC Weather API with Python"
 original_url: "https://tds.s-anand.net/#/bbc-weather-api-with-python?id=bbc-weather-data-with-python"
-downloaded_at: "2025-06-12T11:00:19.084360"
+downloaded_at: "2025-06-13T23:29:48.261471"
 ---
 
 [BBC Weather location ID with Python](#/bbc-weather-api-with-python?id=bbc-weather-location-id-with-python)

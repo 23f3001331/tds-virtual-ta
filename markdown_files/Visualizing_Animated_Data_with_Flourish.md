@@ -1,7 +1,7 @@
 ---
 title: "Visualizing Animated Data with Flourish"
 original_url: "https://tds.s-anand.net/#/visualizing-animated-data-with-flourish?id=visualizing-animated-data-with-flourish"
-downloaded_at: "2025-06-12T10:54:09.310132"
+downloaded_at: "2025-06-13T23:30:34.561903"
 ---
 
 [Visualizing Animated Data with Flourish](#/visualizing-animated-data-with-flourish?id=visualizing-animated-data-with-flourish)

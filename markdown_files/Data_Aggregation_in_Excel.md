@@ -1,7 +1,7 @@
 ---
 title: "Data Aggregation in Excel"
 original_url: "https://tds.s-anand.net/#/data-aggregation-in-excel?id=data-aggregation-in-excel"
-downloaded_at: "2025-06-12T10:55:40.595219"
+downloaded_at: "2025-06-13T23:24:44.405383"
 ---
 
 [Data Aggregation in Excel](#/data-aggregation-in-excel?id=data-aggregation-in-excel)

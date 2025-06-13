@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TDS Virtual TA</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans p-4">
+  <div class="max-w-2xl mx-auto mt-10">
+    <h1 class="text-3xl font-bold text-center text-indigo-600 mb-6">
+      🤖 TDS Virtual TA
+    </h1>
+
+    <form id="query-form" class="space-y-4">
+      <label class="block">
+        <span class="text-gray-700 font-medium">Your Question</span>
+        <input type="text" id="question" placeholder="e.g. How to connect DuckDB to Pandas?" required
+          class="mt-1 w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:border-indigo-400" />
+      </label>
+
+      <label class="block">
+        <span class="text-gray-700 font-medium">Source</span>
+        <select id="source"
+          class="mt-1 w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:border-indigo-400">
+          <option value="all">All</option>
+          <option value="discourse">Discourse</option>
+          <option value="note">Note</option>
+        </select>
+      </label>
+
+      <button type="submit"
+        class="w-full bg-indigo-600 text-white py-3 px-4 rounded-lg hover:bg-indigo-700 transition font-semibold">
+        Ask
+      </button>
+    </form>
+
+    <div id="answers" class="mt-8 space-y-4"></div>
+  </div>
+
+  <script>
+    const form = document.getElementById("query-form");
+    const answersDiv = document.getElementById("answers");
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      answersDiv.innerHTML = "<p class='text-gray-600'>🔍 Searching...</p>";
+
+      const question = document.getElementById("question").value;
+      const source = document.getElementById("source").value;
+
+      try {
+        const res = await fetch("http://localhost:8000/api/", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ question, source }),
+        });
+
+        const data = await res.json();
+        if (data.answers && data.answers.length > 0) {
+          answersDiv.innerHTML = data.answers
+            .map((ans) => `
+              <div class="p-4 border border-gray-300 rounded-md bg-white shadow-sm">
+                <p class="text-sm text-indigo-600 font-medium">${ans.source || "source"}</p>
+                <h3 class="font-semibold text-lg mb-1">${ans.title || "No title"}</h3>
+                <p class="text-gray-700 whitespace-pre-line">${ans.content}</p>
+                ${ans.url ? `<a href="${ans.url}" target="_blank" class="text-blue-500 text-sm underline mt-2 inline-block">🔗 View Source</a>` : ""}
+              </div>
+            `).join("");
+        } else {
+          answersDiv.innerHTML = "<p class='text-red-500'>No results found.</p>";
+        }
+      } catch (err) {
+        answersDiv.innerHTML = `<p class='text-red-600'>⚠️ Error: ${err.message}</p>`;
+      }
+    });
+  </script>
+</body>
+</html>

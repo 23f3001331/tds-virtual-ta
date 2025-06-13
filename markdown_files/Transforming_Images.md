@@ -1,7 +1,7 @@
 ---
 title: "Transforming Images"
-original_url: "https://tds.s-anand.net/#/transforming-images?id=transforming-images"
-downloaded_at: "2025-06-12T10:55:04.570703"
+original_url: "https://tds.s-anand.net/#/transforming-images?id=image-processing-with-pil-pillow"
+downloaded_at: "2025-06-13T23:31:21.982939"
 ---
 
 [Transforming Images](#/transforming-images?id=transforming-images)

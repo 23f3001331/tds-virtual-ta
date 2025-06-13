@@ -1,7 +1,7 @@
 ---
 title: "LLM Speech"
-original_url: "https://tds.s-anand.net/#/llm-speech?id=google-gemini-speech-studio-for-text-to-speech"
-downloaded_at: "2025-06-12T10:58:20.736416"
+original_url: "https://tds.s-anand.net/#/llm-speech?id=python-implementation"
+downloaded_at: "2025-06-13T23:29:31.823976"
 ---
 
 [OpenAI TTS-1 for Text-to-Speech Generation](#/llm-speech?id=openai-tts-1-for-text-to-speech-generation)

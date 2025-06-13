@@ -1,7 +1,7 @@
 ---
 title: "Prompt engineering"
 original_url: "https://tds.s-anand.net/#/prompt-engineering?id=prefer-yesno-answers"
-downloaded_at: "2025-06-12T10:59:45.149597"
+downloaded_at: "2025-06-13T23:30:19.503543"
 ---
 
 [Prompt Engineering](#/prompt-engineering?id=prompt-engineering)

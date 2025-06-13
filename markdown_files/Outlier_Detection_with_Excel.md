@@ -1,7 +1,7 @@
 ---
 title: "Outlier Detection with Excel"
 original_url: "https://tds.s-anand.net/#/outlier-detection-with-excel?id=outlier-detection-with-excel"
-downloaded_at: "2025-06-12T10:59:54.747804"
+downloaded_at: "2025-06-13T23:25:46.704993"
 ---
 
 [Outlier Detection with Excel](#/outlier-detection-with-excel?id=outlier-detection-with-excel)

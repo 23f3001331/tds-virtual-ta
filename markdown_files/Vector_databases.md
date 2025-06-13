@@ -1,7 +1,7 @@
 ---
 title: "Vector databases"
-original_url: "https://tds.s-anand.net/#/vector-databases?id=duckdb"
-downloaded_at: "2025-06-12T10:58:29.555610"
+original_url: "https://tds.s-anand.net/#/vector-databases?id=lancedb"
+downloaded_at: "2025-06-13T23:29:09.162364"
 ---
 
 [Vector Databases](#/vector-databases?id=vector-databases)

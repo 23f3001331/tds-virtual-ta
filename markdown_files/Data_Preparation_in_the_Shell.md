@@ -1,7 +1,7 @@
 ---
 title: "Data Preparation in the Shell"
-original_url: "https://tds.s-anand.net/#/data-preparation-in-the-shell?id=convert-logs-to-csv"
-downloaded_at: "2025-06-12T10:57:15.324013"
+original_url: "https://tds.s-anand.net/#/data-preparation-in-the-shell?id=uncompress-the-log-file"
+downloaded_at: "2025-06-13T23:31:12.383709"
 ---
 
 [Data Preparation in the Shell](#/data-preparation-in-the-shell?id=data-preparation-in-the-shell)

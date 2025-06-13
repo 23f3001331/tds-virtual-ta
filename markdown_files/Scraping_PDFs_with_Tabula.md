@@ -1,7 +1,7 @@
 ---
 title: "Scraping PDFs with Tabula"
 original_url: "https://tds.s-anand.net/#/scraping-pdfs-with-tabula?id=scraping-pdfs-with-tabula"
-downloaded_at: "2025-06-12T10:58:59.873590"
+downloaded_at: "2025-06-13T23:26:50.954383"
 ---
 
 [Scraping PDFs with Tabula](#/scraping-pdfs-with-tabula?id=scraping-pdfs-with-tabula)

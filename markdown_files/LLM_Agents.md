@@ -1,7 +1,7 @@
 ---
 title: "LLM Agents"
-original_url: "https://tds.s-anand.net/#/llm-agents?id=real-world-applications"
-downloaded_at: "2025-06-12T10:58:44.678586"
+original_url: "https://tds.s-anand.net/#/llm-agents?id=agent-architectures"
+downloaded_at: "2025-06-13T23:28:17.487207"
 ---
 
 [LLM Agents: Building AI Systems That Can Think and Act](#/llm-agents?id=llm-agents-building-ai-systems-that-can-think-and-act)

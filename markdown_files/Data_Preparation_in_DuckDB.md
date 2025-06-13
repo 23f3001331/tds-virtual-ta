@@ -1,7 +1,7 @@
 ---
 title: "Data Preparation in DuckDB"
-original_url: "https://tds.s-anand.net/#/data-preparation-in-duckdb?id=processing-in-chunks"
-downloaded_at: "2025-06-12T11:00:44.496507"
+original_url: "https://tds.s-anand.net/#/data-preparation-in-duckdb?id=derived-columns"
+downloaded_at: "2025-06-13T23:30:33.471540"
 ---
 
 [Data Preparation in DuckDB](#/data-preparation-in-duckdb?id=data-preparation-in-duckdb)

@@ -1,8 +1,11 @@
-flask
-gunicorn
-beautifulsoup4
-markdownify
-playwright
-sentence-transformers
+
+fastapi
+uvicorn
+pydantic
 faiss-cpu
+numpy
+sentence-transformers
 python-dotenv
+markdownify
+beautifulsoup4
+playwright

@@ -1,7 +1,7 @@
 ---
 title: "Web Framework: FastAPI"
 original_url: "https://tds.s-anand.net/#/fastapi?id=web-framework-fastapi"
-downloaded_at: "2025-06-12T10:57:17.510013"
+downloaded_at: "2025-06-13T23:27:57.563099"
 ---
 
 [Web Framework: FastAPI](#/fastapi?id=web-framework-fastapi)

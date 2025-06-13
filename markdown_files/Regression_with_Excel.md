@@ -1,7 +1,7 @@
 ---
 title: "Regression with Excel"
 original_url: "https://tds.s-anand.net/#/regression-with-excel?id=regression-with-excel"
-downloaded_at: "2025-06-12T10:59:48.385197"
+downloaded_at: "2025-06-13T23:30:54.190216"
 ---
 
 [Regression with Excel](#/regression-with-excel?id=regression-with-excel)

@@ -1,7 +1,7 @@
 ---
 title: "Authentication: Google Auth"
 original_url: "https://tds.s-anand.net/#/google-auth?id=google-authentication-with-fastapi"
-downloaded_at: "2025-06-12T10:54:54.736949"
+downloaded_at: "2025-06-13T23:27:43.083924"
 ---
 
 [Google Authentication with FastAPI](#/google-auth?id=google-authentication-with-fastapi)

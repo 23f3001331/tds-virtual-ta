@@ -1,7 +1,7 @@
 ---
 title: "Local LLMs: Ollama"
-original_url: "https://tds.s-anand.net/#/ollama?id=real-world-use-cases"
-downloaded_at: "2025-06-12T11:00:16.939883"
+original_url: "https://tds.s-anand.net/#/ollama?id=local-llm-runner-ollama"
+downloaded_at: "2025-06-13T23:29:49.398087"
 ---
 
 [Local LLM Runner: Ollama](#/ollama?id=local-llm-runner-ollama)
